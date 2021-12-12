@@ -2,4 +2,3 @@ streamlit
 scikit_learn
 keras
 tensorflow-cpu
-pickle
