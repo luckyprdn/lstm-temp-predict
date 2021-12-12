@@ -3,8 +3,8 @@ def main ():
   import streamlit as st
   # Import library numpy
   import numpy as np
-  pickle_in = open ('model.pkl','rb')
-  lstm_model = pickle.load(pickle_in)
+  from tensorflow.keras.models import load_model
+  lstm_model = load_model(model.h5)
   st.title('Prediksi suhu di Tanjung Uban, Bintan Utara, Kepulauan Riau dengan LSTM model', anchor=None)
   input = ([[st.number_input('Masukkan suhu yang ingin diprediksi')]])
   
