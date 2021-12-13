@@ -2,7 +2,7 @@ Nama : Lucky Pradana
        , Kevin Octaviano
        , Muhammad Arif
 
-Host  : Universitas Gadjah Mada (UGM-04)
+Host  : Universitas Gadjah Mada (UGM-04), Kelompok 2
 
 #Penjelasan
 
